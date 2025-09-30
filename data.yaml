@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['Hand', 'blue_cube', 'blue_longrect', 'blue_rect', 'cylinder', 'green_cube', 'green_longrect', 'green_rect', 'half_cylinder', 'red_cube', 'red_rect', 'triangle', 'yellow_archrect', 'yellow_cube', 'yellow_longrect', 'yelow_rect']
+
+roboflow:
+  workspace: terabaru
+  project: block-irbax
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/terabaru/block-irbax/dataset/5
