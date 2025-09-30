@@ -85,34 +85,11 @@ dmypy.json
 .pyre/
 
 # YOLO specific
-runs/detect/
-runs/train/
-*.pt
-*.onnx
-*.engine
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
+
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Large files (videos, models)
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
-*.m4v
